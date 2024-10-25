@@ -7,7 +7,7 @@ import com.uninorte.CustomList;
 public class CustomListTest7 {
 
     @Test
-    public void testGetIndexOfNodeWithValeDuplicateElement() {
+    public void testgetIndexOfNodeWithValueDuplicateElement() {
         CustomList customList = new CustomList();
         customList.add(5);
         customList.add(9);

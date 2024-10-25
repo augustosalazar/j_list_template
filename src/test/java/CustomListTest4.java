@@ -8,9 +8,9 @@ public class CustomListTest4 {
 
 
     @Test
-    public void testGetIndexOfNodeWithValeEmptyList() {
+    public void testgetIndexOfNodeWithValueEmptyList() {
         CustomList customList = new CustomList();
-        assertEquals(-1, customList.getIndexOfNodeWithVale(7));
+        assertEquals(-1, customList.getIndexOfNodeWithValue(7));
     }
 
 }

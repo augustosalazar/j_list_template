@@ -8,12 +8,12 @@ public class CustomListTest3 {
 
 
     @Test
-    public void testGetIndexOfNodeWithValeNotFound() {
+    public void testgetIndexOfNodeWithValueNotFound() {
         CustomList customList = new CustomList();
         customList.add(5);
         customList.add(9);
         customList.add(13);
-        assertEquals(-1, customList.getIndexOfNodeWithVale(7));
+        assertEquals(-1, customList.getIndexOfNodeWithValue(7));
     }
 
 }

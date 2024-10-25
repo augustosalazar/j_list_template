@@ -7,12 +7,12 @@ import com.uninorte.CustomList;
 public class CustomListTest6 {
 
     @Test
-    public void testGetIndexOfNodeWithValeLastElement() {
+    public void testgetIndexOfNodeWithValueLastElement() {
         CustomList customList = new CustomList();
         customList.add(5);
         customList.add(9);
         customList.add(13);
-        assertEquals(2, customList.getIndexOfNodeWithVale(13));
+        assertEquals(2, customList.getIndexOfNodeWithValue(13));
     }
 
 }
