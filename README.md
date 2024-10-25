@@ -2,6 +2,7 @@
 
 Debe cubrir el siguiente UML
 ```plantuml
+
 @startuml
 
 
@@ -20,8 +21,11 @@ class CustomList {
     + Integer getNumberOfNodesWithValue(int value)
 }
 
-CustomList  --> "0..*. " Node :  contains
+CustomList  --> "0..1" Node :  startNode
+CustomList  --> "0..1" Node :  lastNode
 
+Node --> "0..1" Node : prev
+Node --> "0..1" Node : next
 
 @enduml
 ```
